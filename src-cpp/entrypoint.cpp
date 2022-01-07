@@ -1,9 +1,16 @@
+#include "samplenode.h"
+
 #include <godot_cpp/godot.hpp>
 #include <godot-headers/godot/gdnative_interface.h>
 #include <godot_cpp/core/defs.hpp>
+#include <class_db.hpp>
+
+
+using namespace godot;
 
 
 void register_example_types() {
+    ClassDB::register_class<SampleNode>();
 }
 
 

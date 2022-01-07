@@ -4,14 +4,18 @@
 
 #include <node.hpp>
 #include <godot.hpp>
-
-using godot::Node;
+#include <control.hpp>
 
 using namespace godot;
+
 class SampleNode : public Node
 {
 
-    GDNATIVE_CLASS(SampleNode, Node);
+    GDCLASS(SampleNode, Node);
+
+protected:
+
+    static void _bind_methods();
 
 public:
 };
