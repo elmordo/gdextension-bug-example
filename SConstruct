@@ -17,7 +17,7 @@ opts.Add(PathVariable('target_name', 'The library name.', 'libgdexample', PathVa
 # Local dependency paths, adapt them to your setup
 godot_headers_path = "lib/godot-cpp/godot-headers/"
 cpp_bindings_path = "lib/godot-cpp/"
-cpp_library = "lib-cpp"
+cpp_library = "libgodot-cpp"
 
 # only support 64 at this time..
 bits = 64
