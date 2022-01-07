@@ -2,10 +2,18 @@
 #define SAMPLENODE_H
 
 
-class SampleNode
+#include <node.hpp>
+#include <godot.hpp>
+
+using godot::Node;
+
+using namespace godot;
+class SampleNode : public Node
 {
+
+    GDNATIVE_CLASS(SampleNode, Node);
+
 public:
-    SampleNode();
 };
 
 #endif // SAMPLENODE_H

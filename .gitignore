@@ -73,3 +73,6 @@ Thumbs.db
 .godot
 
 api.json
+bin/
+*.os
+.sconsign.dblite

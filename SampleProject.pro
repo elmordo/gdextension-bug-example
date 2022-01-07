@@ -18,9 +18,14 @@ HEADERS += \
 
 INCLUDEPATH += \
     lib/godot-cpp \
+    lib/godot-cpp/include/godot_cpp \
+    lib/godot-cpp/include/godot_cpp/core \
+    lib/godot-cpp/include/godot_cpp/classes \
+    lib/godot-cpp/include/godot_cpp/variant \
     lib/godot-cpp/include \
-    lib/godot-cpp/include/core \
-    lib/godot-cpp/include/gen \
+    lib/godot-cpp/gen/include \
+    lib/godot-cpp/gen/include/godot_cpp/classes \
+    lib/godot-cpp/gen/include/godot_cpp/variant \
     lib/godot-cpp/godot-headers \
 
 
