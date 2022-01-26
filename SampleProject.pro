@@ -23,7 +23,7 @@ INCLUDEPATH += \
     . \
     $$GODOT_HEADERS_PATH/ \
     $$CPP_BINDINGS_PATH/include/ \
-    $$CPP_BINDINGS_PATH/get/include/ \
+    $$CPP_BINDINGS_PATH/gen/include/ \
 
 
 # Default rules for deployment.
