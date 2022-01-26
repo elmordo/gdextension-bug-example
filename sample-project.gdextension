@@ -1,8 +1,8 @@
 [configuration]
 
-entry_symbol = "sample_project_library_init"
+entry_symbol = "new_game_library_init"
 
 [libraries]
 
-linux.64 = "bin/x11/libsampleproject.so"
+linux.64 = "bin/libnewgame.linux.debug.64.so"
 
