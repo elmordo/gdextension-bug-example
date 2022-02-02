@@ -14,9 +14,11 @@ GODOT_HEADERS_PATH = $$CPP_BINDINGS_PATH/godot-headers/
 
 SOURCES += \
     src-cpp/entrypoint.cpp \
+    src-cpp/inherited.cpp \
     src-cpp/samplenode.cpp
 
 HEADERS += \
+    src-cpp/inherited.h \
     src-cpp/samplenode.h
 
 INCLUDEPATH += \

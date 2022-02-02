@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://di8h5vnf6ek0d"]
+
+[node name="SampleScene" type="Node2D"]
+
+[node name="SampleNode" type="SampleNode" parent="."]
+
+[node name="Inherited" type="Inherited" parent="."]
